@@ -1,0 +1,332 @@
+/* 
+    Document   : estilo
+    Created on : 03-09-2013, 01:20:55 AM
+    Author     : Tharsis
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.btn_editar{
+    background-image: url('img/edit.png');
+    background-repeat: no-repeat;
+}
+
+.brand {
+     font-size: 14px !important;    
+     font-weight: bold !important;
+}
+
+.barraInfo{
+    color:#999;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.barraInfo #btnSalir{
+    margin-left: 10px;
+    margin-top: -3px !important;
+    
+}
+.txtcentrado{
+    text-align: center !important;
+}
+#home_logIn{
+    
+}
+#home_titulo {
+    margin-left: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#home_logIn small{
+    margin-top: -10px;
+    font-size: 11px;
+}
+
+#home_logIn img{
+    float:left;    
+}
+
+.titulo {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.fecha{
+    float: right;
+}
+
+#calendario_contenedor{
+   /* background-color: #FFF; */
+    height: 250px;
+    overflow: auto;
+    overflow-x: hidden;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    /* position: absolute; */
+    
+}
+#calendario_contenedor .cal_bloque {
+    /* background-color: #d9edf7; */
+    /* background-color: lightblue; */
+    /*font-weight: bold;*/
+    background-color:#ccffcc;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+#calendario_contenedor .cal_horas {
+    background-color: #dff0d8;
+}
+
+#calendario_contenedor .cal_filas {
+    margin-left: 1px;  
+    position: absolute;
+    /*z-index: -1;*/
+}
+#calendario_contenedor .cal_filas2{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 1px;
+}
+
+#calendario_contenedor .dia_hora{
+    background-color: #fff;    
+}
+
+#calendario_contenedor .col_hoy{
+    background-color: #f3edd2;    
+}
+
+#calendario_contenedor .cal_encabezado{
+    background-color: #dff0d8; 
+    font-size: 11px;
+}
+
+#calendario_contenedor .blo_no_disponible{
+    background-color: lightsalmon;    
+}
+
+#calendario_contenedor .blo_provisorio{
+    background-color:#ffff66  
+}
+
+#calendario_contenedor .blo_mixto{
+    background-color:#ff9933;
+}
+
+#calendario_contenedor .blo_bloqueado{
+    background-color: #999;    
+}
+
+#calendario_contenedor .blo_confirmado{
+    /* background-color:#ccffcc;  */
+    background-color: lightblue;
+}
+
+#datepicker{
+    width: 100px;
+    text-align: center;
+}
+.btns_datepicker{
+    margin-top: -10px;
+}
+
+.tabla_ov, .tabla_historial{
+    margin-top: 10px;
+    font-size: 12px;
+    display: inline-block;
+    
+}
+
+.tabla_ov{    
+    /* width: 300px;     */
+}
+
+.tabla_historial{
+    width: 400px;
+    float: right;  
+    height: 175px;
+    /* margin-top: 15px; */
+   
+   
+
+}
+#div_datos_tabla_historial{
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 400px;
+}
+.tabla_historial h6, .tabla_ov h6{
+    margin-top: 0px;
+    display: inline-block;
+}
+
+#ordenes_vta{    
+    width: 100%;
+}
+
+#historial{
+    width: 100%;
+}
+
+#reserva_ejemplo{
+    width: 500px;
+    font-size: 12px;
+    display: none;
+}
+
+a{
+    color: #444;
+    text-decoration: none !important;    
+}
+
+.res_tabla{
+    font-size: 11px;
+    margin-bottom: 10px;
+    
+}
+
+.res_tabla td,th{
+    text-align: center !important;
+}
+
+.modal_linea{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    height:5px; 
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#solicitud_reserva th, #solicitud_reserva td, #solicitud_reserva tr {
+    font-size: 12px;
+}
+
+#reserva_plantilla{
+    text-align: center !important;
+}
+
+.over:hover{
+    /*
+      -webkit-box-shadow:
+            inset 0 0 1px #ccc,
+            inset 0 0 1px #ccc,
+            inset 0 0 1px #ccc;
+   
+     -moz-box-shadow:
+            inset 0 0 1px #ccc,
+            inset 0 0 1px #ccc,
+            inset 0 0 1px #ccc;
+   
+          box-shadow:
+            inset 0 0 1px #ccc,
+            inset 0 0 1px #ccc,
+            inset 0 0 1px #ccc;
+     */
+     opacity:0.6;
+     filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#cal_ajax{
+    position: relative;
+    min-height: 300px;
+}
+
+.arriba{
+    z-index: 1;
+}
+
+.derecha{
+    float: right;
+}
+
+.popover{
+      min-width: 150px !important;
+}
+
+.well{
+    background-color: transparent;
+    box-shadow: none;  
+    border: 1px solid #EEEEEE;
+    font-size: 12px;
+    
+}
+
+#div_datos_tabla_ov {
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 455px;
+}
+
+#tabla_ov_ajax{
+    width: 10px;
+    display: inline-block;
+}
+
+#mantenedor_btns{
+    margin-bottom: 10px;
+}
+
+.cuadro_leyenda{
+    height: 15px;
+    width: 15px; 
+    display: inline-block;
+}
+
+.txt_leyenda {
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#leyenda{
+    display:inline-block;
+    margin-left: 40px;
+    margin-bottom: 3px;
+    margin-top: 10px;    
+}
+
+#tabla_historial_ajax{
+    display: inline;
+    width: 10px;
+}
+
+
+#cont_actualizar{
+    /* background-color: #CCCCCC;*/
+    display: inline-block;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 0;
+    width: 100%;
+}
+
+.autocomplete-suggestion{    
+    background-color: #F9F9F9;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.autocomplete-suggestion:hover{    
+    background-color: #F5F5F5;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+}
+
+#div_resultados .tabla_resultados{
+     font-size: 9px;
+}
+
+.tabla_reservas{
+    font-size: 12px !important;
+}
+
+.modal {
+    width: 760px;
+    margin-left: -380px;
+}
